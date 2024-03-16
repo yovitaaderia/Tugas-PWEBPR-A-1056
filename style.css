@@ -1,0 +1,562 @@
+/* Import font family */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  list-style-type: none;
+}
+
+/* Header Section */
+nav {
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.title {
+  margin: 50px 0;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 3em;
+}
+
+/* Main Section */
+main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* left */
+.left {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* display-1 */
+.display-1 .card {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background: #d5ffdd;
+  padding: 5px 30px;
+  border-radius: 20px;
+}
+.display-1 .card img {
+  position: absolute;
+  width: 260px;
+  left: 0;
+  bottom: 0;
+}
+.display-1 .card .wrapper {
+  margin: 5px 20px;
+}
+
+.display-1 .card .wrapper h1 {
+  font-weight: 500;
+}
+
+.display-1 .card .wrapper p {
+  font-weight: 500;
+}
+
+.display-1 .card .wrapper button {
+  margin: 50px 0 0 0;
+  padding: 10px 100px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  background: #399349;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* display 2 */
+.display-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.display-2 .wrapper-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.display-2 .wrapper-content .card-img {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  padding: 30px 50px 0 50px;
+}
+.orange {
+  background-color: #fff4dc;
+}
+
+.pink {
+  background-color: #ffced7;
+}
+.display-2 .wrapper-content .card-img img {
+  border-radius: 20px;
+}
+.display-2 .wrapper-content .card-img button {
+  position: absolute;
+  bottom: 10px;
+  padding: 10px 70px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 40px;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.display-2 .content .card-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #e2f2ff;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+
+.display-2 .content .card-info img {
+  margin: 10px auto;
+}
+
+.display-2 .content .card-info h3 {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.display-2 .content .card-info p {
+  max-width: 150px;
+  margin: 10px auto;
+  font-weight: 500;
+}
+
+.display-2 .content .card-info button {
+  background-color: #3279af;
+  margin: 20px 0;
+  padding: 10px 70px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 40px;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Right Section */
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.list-job-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+.card-list {
+  width: 500px;
+}
+.list-job-1 .card-list {
+  display: flex;
+  padding: 20px;
+  border: solid 1px #d8d6c1;
+  border-radius: 20px;
+  gap: 20px;
+}
+.list-job-1 .card-list img {
+  margin: auto 0;
+}
+.text-title {
+  text-transform: capitalize;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.list-job-1 .card-list button {
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 70px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #d8d6c1;
+  border: solid 1px #d8d6c1;
+}
+
+.list-job-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  gap: 100px;
+}
+
+.list-job-2 .wrapper {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.text-group p {
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.text-group button {
+  margin: 15px 0;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 15px 10px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #d8d6c1;
+  border: solid 1px #d8d6c1;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 425px) {
+  nav {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  ul li a {
+    font-size: 0.7em;
+  }
+
+  .title {
+    margin: 30px 0;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2em;
+  }
+
+  /* Main Section */
+  main {
+    display: inherit;
+    padding: 50px;
+  }
+  .left {
+    gap: 10px;
+  }
+
+  /* display-1 */
+  .display-1 .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: #d5ffdd;
+  }
+  .display-1 .card img {
+    width: 200px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 130px;
+    left: 0;
+    right: 0;
+  }
+
+  .display-1 .card .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 5px 20px;
+  }
+
+  .display-1 .card .wrapper .text-wrapper h1 {
+    font-weight: 500;
+  }
+
+  .display-1 .card .wrapper .text-wrapper p {
+    font-weight: 500;
+  }
+
+  .display-1 .card .wrapper button {
+    margin: 150px 0 0 0;
+    padding: 10px 60px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    background: #399349;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  /* display 2 */
+  .display-2 {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+  }
+
+  .display-2 .wrapper-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .display-2 .wrapper-content .card-img {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 30px 75px 0 75px;
+  }
+  .orange {
+    background-color: #fff4dc;
+  }
+
+  .pink {
+    background-color: #ffced7;
+  }
+  .display-2 .wrapper-content .card-img img {
+    border-radius: 20px;
+  }
+  .display-2 .wrapper-content .card-img button {
+    position: absolute;
+    bottom: 10px;
+    padding: 10px 70px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 40px;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .display-2 .content .card-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #e2f2ff;
+    padding: 20px 65px;
+    border-radius: 20px;
+    margin: 20px 0 0 0;
+  }
+
+  .display-2 .content .card-info img {
+    width: 200px;
+    position: absolute;
+    bottom: 270px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .display-2 .content .card-info h3 {
+    margin: 150px 0 0 0;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .display-2 .content .card-info p {
+    max-width: 170px;
+    margin: 5px auto;
+    font-weight: 500;
+  }
+
+  .display-2 .content .card-info button {
+    background-color: #3279af;
+    margin: 20px 0;
+    padding: 10px 70px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 40px;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  /* Right Section */
+  .right{
+gap: 0;
+  }
+  .list-job-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 0;
+    gap: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+
+  .card-list {
+    width: 100%;
+  }
+  .list-job-1 .card-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 50px 0 50px;
+    border: none;
+    background-color: #e9e8e2;
+    gap: 30px;
+  }
+  .list-job-1 .card-list img {
+    position: relative;
+    width: 100%;
+    bottom: -30px;
+  }
+  .text-title {
+    text-transform: capitalize;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .list-job-1 .card-list p {
+    display: none;
+  }
+  .list-job-1 .card-list button {
+    width: 250px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    padding: 5px 25px;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #d8d6c1;
+    border: solid 1px #d8d6c1;
+    border-radius: 15px;
+  }
+
+  .list-job-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+  gap: 30px;
+  }
+
+  .list-job-2 .wrapper {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 50px 0 50px;
+    /* gap: 20px; */
+  }
+
+  .list-job-2 .wrapper img {
+    position: relative;
+    width: 100%;
+    /* bottom: -30px; */
+  }
+
+  .text-group p {
+    display: none;
+  }
+
+  .text-group button {
+    width: 250px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    padding: 5px 25px;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    border-radius: 15px;
+  }
+
+  .orange-pembalap {
+    background-color: #ffdbc5;
+  }
+  .blue {
+    background-color: #8fc5ed;
+  }
+  .button-orange {
+    background-color: #e36415 !important;
+  }
+  .button-blue {
+    background-color: #275e87 !important;
+  }
+}
